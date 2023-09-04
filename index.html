@@ -1,0 +1,179 @@
+<!DOCTYPE html> <!--especifica o documento-->
+<html lang="pt-br"> <!--dioma da pagina-->
+<head> <!--informações gerais do documento-->
+    <meta charset="UTF-8"> <!--a tag "meta" descreve o conteudo do site-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel> define a ligação do arquivo entre o comando escrito-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Esse link está permitindo que o bootstrap e seus comandos sejam utilizados no site-->
+    <link rel="stylesheet" href="css/style.css"> <!--para o arquivo css seja utilizado na página-->
+    <title>Horror movies and series</title> <!--título da pagina-->
+
+
+</head> <!--ta encerrando-->
+<body>
+  <div class="nome text-center"> <!--essa class foi usada para o texto ficar no centro-->
+    <h1>HORROR MOVIES AND SERIES</h1>
+  </div> <!-- o div, indica divisão dos elementos-->
+
+  <!--ultização do bootstrap para a barra de pesquisa-->
+  <nav class="navbar navbar-expand-lg navbar-light cor1"> <!--secão que aponta para outras paginas-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> <!-- tag para que seja adicionado botons-->
+    <a class="navbar-brand" href="#">HORROR</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> <!-- a tag ul serve para criar uma lista-->
+        <li class="nav-item active"><!-- a tag li para por os  elementos dentro da lista-->
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item"> <!--o class é para  estilizar os elementos-->
+          <a class="nav-link" href="#">Filmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Series</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0"> <!--indicar um tipo de formulario, na qual vai ser encaminhada outros documentos -->
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <!--para que os dados coletados possa ser transportado para outras páginas -->
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  </nav>
+  <br> <br> <!-- quebra de linha-->
+</div>
+<br> <br>
+
+  <div class="container bg-light"> <!-- "bg-...." é para indicar a cor-->
+    <h2>FILMES</h2>
+  </div>
+
+  <div class="container"><!--agrupa elementos, centraliza, perimite espaçamento -->
+  <div class="row"> <!--o "row" está  envolvendo colunas e alinhando para á esquerda  -->
+  <div class="col-md-3"><!--define diferentes grades/grids para seu elemento, com base no tamanho do display do usario -->
+  <img src="img/exorcista.jpg" class="img-fluid"  alt=""> <!--está sendo colocado imagem-->
+  </div>
+  <div class="col-md-3">
+  <img src="img/canibais.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="col-md-3">
+  <img src="img/hereditario.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="col-md-3">
+  <img src="img/invocação.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="col-md-3">
+    <img src="img/horror.avif" class="img-fluid" alt="">
+  </div>
+</div>
+</div>
+
+
+<!--repetição das tags anteriores-->
+  
+
+<div class="container bg-dark"> 
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<img src="img/ouija.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/oie.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/sono.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/X.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+  <img src="img/horror.avif" class="img-fluid" alt="">
+</div>
+</div>
+</div>
+
+<div class="container"><!--agrupa elementos, centraliza, perimite espaçamento -->
+  <div class="row"> <!--o "row" está  envolvendo colunas e alinhando para á esquerda  -->
+  <div class="col-md-3"><!--define diferentes grades/grids para seu elemento, com base no tamanho do display do usario -->
+  <img src="img/velha.jpg" class="img-fluid"  alt=""> <!--está sendo colocado imagem-->
+  </div>
+  <div class="col-md-3">
+  <img src="img/it.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="col-md-3">
+  <img src="img/sii.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="col-md-3">
+  <img src="img/bruxa.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="col-md-3">
+    <img src="" class="img-fluid" alt="">
+  </div>
+</div>
+
+<div class="container bg-dark"> 
+</div>
+
+
+
+
+
+
+
+<div class="container bg-light">
+  <h2>SÉRIES</h2>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<img src="img/horaS.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/irmaS.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/ssssss.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/theS.jpg" class="img-fluid" alt="">
+</div>
+</div>
+</div>
+
+<br> <br>
+<div class="container bg-dark">
+ 
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<img src="img/mestre terrorS.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+  <img src="img/DS.jpg" class="img-fluid" alt="">
+</div>
+
+<div class="col-md-3">
+<img src="img/S.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-md-3">
+<img src="img/ST.jpg" class="img-fluid" alt="">
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

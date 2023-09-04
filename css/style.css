@@ -1,0 +1,28 @@
+body{
+    background-color: black; 
+    /* definindo a cor de fundo do site 
+    */
+}
+
+h1{
+    /* cor do titulo do site
+    */
+    color: rgb(124, 10, 10);
+}
+.cor1{
+    /* cor do fundo da barra de pesquisa criada 
+    */
+    background-color: rgb(112, 10, 10);
+}
+
+header{
+    /* organização do cabeçalho da pagina
+    */
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 24px;
+}
